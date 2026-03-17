@@ -1,22 +1,31 @@
 # Frente & Verso Email Signatures
 
-This folder is ready to be moved into its own GitHub repository.
+Email-safe signatures optimized for Apple Mail and common clients.
 
 ## Structure
 
-- `signatures/signature-preview.html`
+- `signatures/signature-filipe.html`
 - `signatures/signature-geral.html`
 - `assets/logo-frenteverso.png`
+- `assets/signature/*.png` (gradient + icon set)
 
-## How to use in a dedicated repo
+## Rendering approach
 
-1. Create a new repo and push this `email-signatures` content.
-2. Keep the same folder structure (`signatures/` + `assets/`).
-3. The signatures in this repo already use a hosted image URL:
-   - `https://raw.githubusercontent.com/BWLeoRibeiro/FrenteVerso-email-signatures/main/assets/logo-frenteverso.png`
+- Table-only layout
+- Inline styles only
+- No `<style>` blocks, no webfont imports
+- Hosted PNG images for gradient and icons
 
-## Note about Outlook (`cid:` icons)
+## Quick install (Apple Mail)
 
-The social icons use inline SVG for most clients.
-There are conditional `cid:` image fallbacks for MS Outlook in both HTML files.
-If needed later, we can add hosted PNG fallbacks and remove/replace the `cid:` references.
+1. Open the desired file from `signatures/` in a browser.
+2. Select only the signature block and copy.
+3. In Apple Mail: `Mail > Settings > Signatures`, create or select signature.
+4. Paste with `Edit > Paste and Match Style` if default paste introduces odd formatting.
+5. Send a test to Gmail + Outlook and confirm spacing/links.
+
+## Hosted asset URL
+
+`https://raw.githubusercontent.com/BWLeoRibeiro/FrenteVerso-email-signatures/main/assets/logo-frenteverso.png`
+
+`https://raw.githubusercontent.com/BWLeoRibeiro/FrenteVerso-email-signatures/main/assets/signature/`
