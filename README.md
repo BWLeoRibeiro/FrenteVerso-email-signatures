@@ -12,10 +12,8 @@ This folder is ready to be moved into its own GitHub repository.
 
 1. Create a new repo and push this `email-signatures` content.
 2. Keep the same folder structure (`signatures/` + `assets/`).
-3. If you want fully hosted image URLs, replace:
-   - `../assets/logo-frenteverso.png`
-   with your GitHub raw URL, for example:
-   - `https://raw.githubusercontent.com/<org>/<repo>/<branch>/assets/logo-frenteverso.png`
+3. The signatures in this repo already use a hosted image URL:
+   - `https://raw.githubusercontent.com/BWLeoRibeiro/FrenteVerso-email-signatures/main/assets/logo-frenteverso.png`
 
 ## Note about Outlook (`cid:` icons)
 
